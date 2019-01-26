@@ -8,7 +8,7 @@ namespace TransformationFichier
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Traitement en cours...");
+            Console.WriteLine("Traitement en cours...");
 
             var skipX = false;
             var skipY = false;
@@ -68,15 +68,8 @@ namespace TransformationFichier
                 }
             }
 
-            System.Console.WriteLine("Entrer une touche pour fermer.");
-            System.Console.ReadLine();
-        }
-
-        public class Line
-        {
-            public double X { get; set; }
-            public double Y { get; set; }
-            public double Z { get; set; }
+            Console.WriteLine("Entrer une touche pour fermer.");
+            Console.ReadLine();
         }
     }
 }
